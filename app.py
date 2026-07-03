@@ -5,5 +5,5 @@ name=st.text_input("enter your name")
 
 st.title("take the input")
 
-if st.buuton("submit"):
+if st.button("submit"):
   st.write(f"print the name: {name}")
